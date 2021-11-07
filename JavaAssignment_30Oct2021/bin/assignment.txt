@@ -1,0 +1,15 @@
+1. Create a table in a new database with following columns
+	id int autoincrement
+	fullname varchar(50)
+	email varchar(50)
+	phone varchar(10)
+	salary int
+	dob date
+	password varchar(50)
+2. Create a class with following methods
+	addEmployee(Exployee e)
+	getAllEmployees()
+	getEmployeeDetails(int id)
+	getEmployeesDOBwise(String fromDate, String toDate)
+	getEmployeesSalaryWise(Char sign, int amount)
+	ForgetPassword(String newPassword, int id)
